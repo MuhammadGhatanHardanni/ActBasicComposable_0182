@@ -75,6 +75,14 @@ fun TugasLogin(modifier: Modifier = Modifier) {
             }
 
             Spacer(modifier = Modifier.height(40.dp))
+
+            Image(
+                painter = painterResource(id = R.drawable.logo_umy),
+                contentDescription = "Logo UMY",
+                modifier = Modifier.size(130.dp)
+            )
+
+            Spacer(modifier = Modifier.height(24.dp))
         }
     }
 }
