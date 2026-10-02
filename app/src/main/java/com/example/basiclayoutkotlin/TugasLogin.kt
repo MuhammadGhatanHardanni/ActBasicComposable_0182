@@ -25,3 +25,17 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+
+@Composable
+fun TugasLogin(modifier: Modifier = Modifier) {
+    val textShadow = Shadow(
+        color = Color.Black,
+        offset = Offset(3f, 3f),
+        blurRadius = 8f
+    )
+
+    Box(
+        modifier = modifier.fillMaxSize()
+    ) {
+    }
+}
