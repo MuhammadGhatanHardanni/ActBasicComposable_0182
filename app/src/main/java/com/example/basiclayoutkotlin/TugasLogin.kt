@@ -118,6 +118,18 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                     )
                 )
             }
+
+            Spacer(modifier = Modifier.weight(1f))
+
+            Image(
+                painter = painterResource(id = R.drawable.foto_piala),
+                contentDescription = "Foto Profil",
+                contentScale = ContentScale.Crop,
+                modifier = Modifier
+                    .size(280.dp)
+                    .clip(CircleShape)
+                    .border(4.dp, Color.Yellow, CircleShape)
+            )
         }
     }
 }
