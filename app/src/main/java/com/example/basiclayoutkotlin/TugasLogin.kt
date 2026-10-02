@@ -83,6 +83,20 @@ fun TugasLogin(modifier: Modifier = Modifier) {
             )
 
             Spacer(modifier = Modifier.height(24.dp))
+
+            Column(
+                horizontalAlignment = Alignment.CenterHorizontally
+            ) {
+                Text(
+                    text = "NAMA",
+                    style = TextStyle(
+                        fontSize = 18.sp,
+                        fontWeight = FontWeight.ExtraBold,
+                        color = Color.Yellow,
+                        shadow = textShadow,
+                        letterSpacing = 2.sp
+                    )
+                )
         }
     }
 }
