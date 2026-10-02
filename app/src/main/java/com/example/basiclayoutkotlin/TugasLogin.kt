@@ -97,6 +97,27 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                         letterSpacing = 2.sp
                     )
                 )
+                Spacer(modifier = Modifier.padding(2.dp))
+                Text(
+                    text = "Muhammad Ghatan Hardanni",
+                    style = TextStyle(
+                        fontSize = 22.sp,
+                        fontWeight = FontWeight.ExtraBold,
+                        color = Color.White,
+                        shadow = textShadow
+                    )
+                )
+                Spacer(modifier = Modifier.padding(2.dp))
+                Text(
+                    text = "20240140182",
+                    style = TextStyle(
+                        fontSize = 18.sp,
+                        fontWeight = FontWeight.Bold,
+                        color = Color.Yellow,
+                        shadow = textShadow
+                    )
+                )
+            }
         }
     }
 }
