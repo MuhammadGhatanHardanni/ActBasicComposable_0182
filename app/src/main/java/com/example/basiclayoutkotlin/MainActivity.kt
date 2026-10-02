@@ -20,7 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             BasicLayoutKotlinTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    TataletakBoxColumnRow(
+                    TugasLogin(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
